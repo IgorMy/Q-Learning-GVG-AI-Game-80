@@ -4,7 +4,7 @@
 :mortar_board:Artificial Intelligence  
 :octocat: [Ihar Myshkevich (@IgorMy)](https://github.com/IgorMy)  
 ## Introduction
-Two simple Q-Learning implementations for GVG-AI game number 80 In the first implementation, everything the agent is capable of perceiving is used as a state. This method tends to the overfitting of a specific type of problem. In the case of the second implementation, the space of states is reduced to 64 states, allowing the agent not only to learn quickly, but also to overcome all the maps without problems.
+Two simple Q-Learning implementations for GVG-AI game number 80. In the first implementation, everything the agent is capable of perceiving is used as a state. This method tends to overfeeding, so this agent only can resolve the map in which it was trained. In the case of the second implementation, the space of states is reduced to 64 states, allowing the agent not only to learn quickly, but also to overcome all the maps without problems.
 
 ## Video explanation in Spanish
 https://www.youtube.com/watch?v=K6iVxWDEhF8&feature=youtu.be
